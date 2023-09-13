@@ -688,3 +688,34 @@ a {
   left: 641px;
   top: 355px;
 }
+
+/* ############## Ready  ##############*/
+.ready {
+  margin-top: 66px;
+  background: #def6f5;
+  padding: 76px 0 88px;
+}
+
+.ready .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ready .info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ready .info .heading {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.ready .info .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
