@@ -719,3 +719,35 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/* ############## Footer  ##############*/
+
+.footer .body {
+  padding: 131px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .heading {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .list {
+  margin-top: 26px;
+}
+
+.footer .item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.footer .icon {
+  margin: 0 9px 0 3px;
+}
+
+.copyright {
+  margin-top: 80px;
+  text-align: center;
+}

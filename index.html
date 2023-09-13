@@ -27,46 +27,46 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <main style="height: 5000px">
-      <!-- Begin header -->
-      <header class="header fixed">
-        <div class="main-content">
-          <div class="body">
-            <!-- Logo -->
-            <img src="./assets/images/logo.svg" alt="" class="logo" />
+  <body id="home">
+    <!-- Begin header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- Logo -->
+          <img src="./assets/images/logo.svg" alt="" class="logo" />
 
-            <!-- Nav -->
-            <nav class="nav">
-              <ul class="list">
-                <li class="item">
-                  <a href="#!">Home</a>
-                </li>
-                <li class="item">
-                  <a href="#!">Features</a>
-                </li>
-                <li class="item">
-                  <a href="#!">Pricing</a>
-                </li>
-                <li class="item">
-                  <a href="#!">About</a>
-                </li>
-                <li class="item">
-                  <a href="#!">Contact</a>
-                </li>
-              </ul>
-            </nav>
+          <!-- Nav -->
+          <nav class="nav">
+            <ul class="list">
+              <li class="item">
+                <a href="#home">Home</a>
+              </li>
+              <li class="item">
+                <a href="#features">Features</a>
+              </li>
+              <li class="item">
+                <a href="#price">Pricing</a>
+              </li>
+              <li class="item">
+                <a href="#about">About</a>
+              </li>
+              <li class="item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
 
-            <!-- Actions -->
-            <div class="action">
-              <a href="#!" class="btn-signin">Sign in</a>
-              <a href="#!" class="btn-sign-up">Sign up</a>
-            </div>
+          <!-- Actions -->
+          <div class="action">
+            <a href="#!" class="btn-signin">Sign in</a>
+            <a href="#!" class="btn-sign-up">Sign up</a>
           </div>
         </div>
-      </header>
-      <!-- End header -->
+      </div>
+    </header>
+    <!-- End header -->
 
+    <main>
       <!-- Begin hero -->
       <div class="hero">
         <div class="main-content">
@@ -151,7 +151,7 @@
       <!-- End hero hero -->
 
       <!-- Begin features -->
-      <div class="features">
+      <div id="features" class="features">
         <div class="main-content">
           <div class="body">
             <p class="title">F E A T U R E S</p>
@@ -210,7 +210,7 @@
       <!-- End features -->
 
       <!-- Begin courses -->
-      <div class="courses">
+      <div id="price" class="courses">
         <div class="main-content">
           <div class="body">
             <p class="title">C O U R S E S</p>
@@ -298,7 +298,7 @@
       <!-- End courses -->
 
       <!-- Begin overview -->
-      <div class="overview">
+      <div id="about" class="overview">
         <div class="main-content">
           <div class="body">
             <div class="list">
@@ -378,7 +378,7 @@
       <!-- End quote -->
 
       <!-- Begin Ready -->
-      <div class="ready">
+      <div id="contact" class="ready">
         <div class="main-content">
           <div class="body">
             <div class="info">
@@ -390,45 +390,62 @@
         </div>
       </div>
       <!-- End Ready -->
-
-      <footer class="footer">
-        <img src="./assets/images/logo.svg" alt="logo" class="logo" />
-        <div class="wrapper">
-          <h3 class="heading">Community</h3>
-          <ul class="list">
-            <li class="item">Team Plans</li>
-            <li class="item">Blog</li>
-            <li class="item">Students</li>
-            <li class="item">Schoolarships</li>
-          </ul>
-        </div>
-        <div class="wrapper">
-          <h3 class="heading">Company</h3>
-          <ul class="list">
-            <li class="item">About</li>
-            <li class="item">Careers</li>
-            <li class="item">Press</li>
-          </ul>
-        </div>
-        <div class="wrapper">
-          <h3 class="heading">Community</h3>
-          <ul class="list">
-            <li class="item">Team Plans</li>
-            <li class="item">Blog</li>
-            <li class="item">Students</li>
-            <li class="item">Schoolarships</li>
-          </ul>
-        </div>
-        <div class="wrapper">
-          <h3 class="heading">Community</h3>
-          <ul class="list">
-            <li class="item">Team Plans</li>
-            <li class="item">Blog</li>
-            <li class="item">Students</li>
-            <li class="item">Schoolarships</li>
-          </ul>
-        </div>
-      </footer>
     </main>
+
+    <footer class="footer">
+      <div class="main-content">
+        <div class="body">
+          <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+          <div class="wrapper">
+            <h3 class="heading">Community</h3>
+            <ul class="list">
+              <li class="item">Team Plans</li>
+              <li class="item">Blog</li>
+              <li class="item">Students</li>
+              <li class="item">Schoolarships</li>
+            </ul>
+          </div>
+          <div class="wrapper">
+            <h3 class="heading">Company</h3>
+            <ul class="list">
+              <li class="item">About</li>
+              <li class="item">Careers</li>
+              <li class="item">Press</li>
+            </ul>
+          </div>
+          <div class="wrapper">
+            <h3 class="heading">Teaching</h3>
+            <ul class="list">
+              <li class="item">Become a teacher</li>
+              <li class="item">Teaching academy</li>
+            </ul>
+          </div>
+          <div class="wrapper">
+            <h3 class="heading">Be social</h3>
+            <ul class="list">
+              <li class="item">
+                <span class="icon"><i class="fab fa-twitter"></i> </span>
+                Twitter
+              </li>
+              <li class="item">
+                <span class="icon"><i class="fab fa-facebook-f"></i> </span>
+                Facebook
+              </li>
+              <li class="item">
+                <span class="icon"> <i class="fab fa-instagram"></i></span>
+                Instagram
+              </li>
+              <li class="item">
+                <span class="icon"> <i class="fab fa-linkedin-in"></i></span>
+                Linkedin
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">
+          © Copyright 2020 by Mayad Ahmed. All right reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
